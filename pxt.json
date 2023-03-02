@@ -1,0 +1,26 @@
+{
+    "name": "microbit_egg",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-explosive-sensitivity-helper": "github:TomasKazda/pxt-explosive-sensitivity-helper#9c213dba11f1601651aa6be30157a53e27963dab"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
